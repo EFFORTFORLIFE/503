@@ -1,10 +1,18 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from 'next/link';
+import Center from '../pages/center'
 
-export default function Home() {
+
+export default function Home(props) {
+
+  console.log('ppppppppp', props)
+
   return (
     <div className={styles.page}>
       <h1>牛巷坊503</h1>
+      <Center/>
+      <Link href="https://www.baidu.com">百度</Link>
       <main className={styles.main}>
         <Image
           className={styles.logo}
