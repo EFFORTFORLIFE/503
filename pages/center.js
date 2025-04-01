@@ -11,7 +11,7 @@ export async function getServerSideProps() {
   }
 
   const Center = (props) => {
-    console.log('props, ', props)
+    alert('lksdf ', props)
     return (
         <div>
             center

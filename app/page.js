@@ -10,7 +10,7 @@ export default function Home(props) {
 
   return (
     <div className={styles.page}>
-      <h1>牛巷坊503</h1>
+      <h1>牛巷坊503,33</h1>
       <Center/>
       <Link href="https://www.baidu.com">百度</Link>
       <main className={styles.main}>
