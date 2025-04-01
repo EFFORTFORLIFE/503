@@ -5,7 +5,7 @@ export async function getServerSideProps() {
     // 返回数据作为 props
     return {
       props: {
-        data: 'data', // 将数据传递给页面组件
+        data: 'dataasdfsdf', // 将数据传递给页面组件
       },
     };
   }
@@ -13,7 +13,7 @@ export async function getServerSideProps() {
   const Center = (props) => {
     return (
         <div>
-            center
+            center{JSON.stringify(props)}
         </div>
     )
   }
